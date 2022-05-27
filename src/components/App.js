@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import '../App.css';
 import imageLogo from '../../src/static/logo.png'
+import imageSpotify from '../../src/static/spotify.png'
 
 export default function App() {
   const [count, setCount] = useState(0);
@@ -12,9 +13,8 @@ export default function App() {
     
     <h1 id = 'title'>euphonics.io</h1>
     <h2 id = 'subtitle'>The Hip-Hop Mental Health Playlist Generator</h2>
-    <button id = 'accessButton'> <img src = {imageLogo} alt = "eupohonics logo" height = {40}/>
-    <h6 id='footer'>© 2022 DEW</h6>
-  Access with Spotify</button>
+    <button id = 'accessButton'> <img src = {imageSpotify} alt = "spotify logo" height = {27} id = 'spotify'/><span>Access with Spotify</span></button>
+  <h6 id='footer'>© 2022 DEW</h6>
     </div>
   );
 }
