@@ -13,7 +13,7 @@ export default function App() {
     
     <h1 id = 'title'>euphonics.io</h1>
     <h2 id = 'subtitle'>The Hip-Hop Mental Health Playlist Generator</h2>
-    <button id = 'accessButton'> <img src = {imageSpotify} alt = "spotify logo" height = {27} id = 'spotify'/><span>Access with Spotify</span></button>
+    <a><button id = 'accessButton' > <img src = {imageSpotify} alt = "spotify logo" height = {27} id = 'spotify'/><span>Access with Spotify</span></button></a>
   <h6 id='footer'>© 2022 DEW</h6>
     </div>
   );
