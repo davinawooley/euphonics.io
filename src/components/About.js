@@ -1,27 +1,31 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../App.css';
 import imageLogo from '../../src/static/logo.png'
 import imageSpotify from '../../src/static/spotify.png'
-import { Link } from "react-router-dom";
-import MetaTags from 'react-meta-tags';
+// import { Link } from "react-router-dom";
+// import { Route } from 'react-router-dom'; 
+// import {Routes} from 'react-router-dom'
+// import MetaTags from 'react-meta-tags';
 
-class Component1 extends React.Component {
-  render() {
-    return (
-        <div class="wrapper">
-          <MetaTags>
-            <title>Page 1</title>
-            <meta id="meta-description" name="description" content="Some description." />
-            <meta id="og-title" property="og:title" content="MyApp" />
-            <meta id="og-image" property="og:image" content="path/to/image.jpg" />
-          </MetaTags>
-          <div class="content"> Some Content </div>
-        </div>
-      )
-  }
-}
+// class Component1 extends React.Component {
+//   render() {
+//     return (
+//         <div class="wrapper">
+//           <MetaTags>
+//             <title>Page 1</title>
+//             <meta id="meta-description" name="description" content="Some description." />
+//             <meta id="og-title" property="og:title" content="MyApp" />
+//             <meta id="og-image" property="og:image" content="path/to/image.jpg" />
+//           </MetaTags>
+//           <div class="content"> Some Content </div>
+//         </div>
+//       )
+//   }
+// }
+{/* <Route path='/welcome' element={<Home/>} /> */}
 
-export default function App() {
+
+export default function About() {
   return (
     
     <div>
@@ -31,9 +35,9 @@ export default function App() {
     
       <iframe
         src="https://www.youtube.com/embed/E7wJTI-1dvQ"
-        frameborder="0"
+        frameBorder="0"
         allow="autoplay; encrypted-media"
-        allowfullscreen
+        allowFullScreen
         title="video"
       />{" "}
     
