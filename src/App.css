@@ -13,7 +13,9 @@ body{
   display: relative;
 }
 /* custom scroll bar */
-
+#paddTop{
+  margin-top: 250px;
+}
 
 /* width */
 ::-webkit-scrollbar {

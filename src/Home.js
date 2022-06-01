@@ -9,12 +9,14 @@ function Home() {
     <div>
      
     <h3 id = 'navigation'>About</h3>
-<img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
+    <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
+    <div id = 'paddTop'>
     <h1 id = 'title'>euphonics.io</h1>
     <h2 id = 'subtitle'>The Hip-Hop Mental Health Playlist Generator</h2>
     <button id = 'accessButton' >
          <img src = {imageSpotify} alt = "spotify logo" height = {27} id = 'spotify'/>
          <span>Access with Spotify</span></button>
+         </div>
 
     <h6 id='footer'>© 2022 DEW</h6>
 

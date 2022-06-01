@@ -1,8 +1,5 @@
 @import url('https://use.typekit.net/tnb3vsc.css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
-.App {
-  text-align: center;
-}
 body{
 
   background-color: black;
@@ -13,7 +10,9 @@ body{
   display: relative;
 }
 /* custom scroll bar */
-
+#divPosition{
+  margin-top: 90px;
+}
 
 /* width */
 ::-webkit-scrollbar {
@@ -119,4 +118,3 @@ span{
   margin-right: auto;
   display: block;
 }
-
