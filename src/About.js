@@ -8,23 +8,21 @@ function About() {
     
     <div>
      <a><h3 id = 'navigation'>About</h3></a>
-
-    {/* <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/> */}
-    
-
-    <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logoLarge"/>
-    <a><button id = 'accessButton' > <img src = {imageSpotify} alt = "spotify logo" height = {27} id = 'spotify'/><span>Our Story</span></button></a>
-    <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
-   <div id ='video'>
-    <iframe
+     <iframe
    
-        src="https://www.youtube.com/watch?v=nuPZUUED5uk"
-        frameBorder="0"
-        allow="autoplay; encrypted-media"
-        allowFullScreen
-        title="video"
-      />{" "}
-      </div>
+   src="http://www.youtube.com/watch?v=nuPZUUED5uk"
+   frameBorder="0"
+   allow="autoplay; encrypted-media"
+   allowFullScreen
+   title="video"
+ />{" "}
+
+  <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/> 
+    
+    <a><button id = 'accessButton' > <img src = {imageLogo} alt = "euphonics logo" height = {27} id = 'spotify'/><span>Our Story</span></button></a>
+    <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
+   
+
 
     <h1 id = 'title'>euphonics.io</h1>
     <h2 id = 'subtitle'>Euphonics.io implements an AI algorithms that analyzes user listening history and favorite artists to generate hip hop playlists. 

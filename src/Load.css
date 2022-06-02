@@ -19,7 +19,7 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 35%;
+  width: 400px;
 }
 
 /* custom scroll bar */
@@ -85,16 +85,24 @@ button{
   padding: 30px;
 
 }
+#makePurple{
+  color: #983FE0;
+  display: inline;
+}
 
 #subtitle{
   color: #8F8F8F;
+  color:white;
+
   font-size: 30px;
-  letter-spacing: 5%;
+  letter-spacing: 2px;
   text-align: center;
   margin: auto;
-  font-family: roboto-slab,serif;
-  font-weight: 400;
+  margin-top: 20px;
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
   font-style: normal;
+
   /* margin-top: 45vh; */
 }
 
