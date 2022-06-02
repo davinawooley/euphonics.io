@@ -1,0 +1,100 @@
+@import url('https://use.typekit.net/tnb3vsc.css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+/* .App {
+  text-align: center;
+} */
+body{
+
+  background-color: black;
+}
+
+#logo{
+
+  /* margin-left: 25px; */
+  /* display: absolute; */
+  display: inline-block;
+}
+
+
+#title{
+  margin-top: 27vh;
+  font-size: 45px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: white;
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 6px;
+}
+h1{
+  line-height: 5px;
+}
+
+p{
+    color: #8F8F8F;
+    font-size: 18px;
+    letter-spacing: 5%;
+    text-align: center;
+    margin: auto;
+    /* width: 50%; */
+    font-family: roboto-slab,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#navigation{
+  color: white;
+ 
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+#footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+button{
+  border: 1px solid #983FE0;
+  background: transparent;
+  color: white;
+  font-size: 19px;
+  padding: 30px;
+
+}
+
+
+button > #spotify,
+button > span {
+  vertical-align: middle;
+}
+
+#spotify{
+  margin-right: 30px;
+}
+
+span{
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#accessButton{
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h3{text-align: right;
+    display: inline-block;}

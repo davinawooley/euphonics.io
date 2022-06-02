@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
-import '../App.css';
+import React from 'react';
+import './App.css';
 import imageLogo from '../../src/static/logo.png'
 import imageSpotify from '../../src/static/spotify.png'
-import { Link } from "react-router-dom";
-import MetaTags from 'react-meta-tags';
+// import { Link } from "react-router-dom";
+// import MetaTags from 'react-meta-tags';
 
-export default function App() {
+export default function emotions() {
     return (
       
       <div>
