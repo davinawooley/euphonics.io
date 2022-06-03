@@ -44,6 +44,7 @@ body{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
   width: 50%;
   color: white;
   font-family: din-condensed,sans-serif;
@@ -156,4 +157,18 @@ iframe{
   padding-top: 10%;
   color: white;
   text-align: center;
+}
+
+#title2{
+  margin-top: 30vh;
+  font-size: 45px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: white;
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 6px;
 }

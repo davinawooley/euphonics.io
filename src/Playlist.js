@@ -7,10 +7,16 @@ import imageSpotify from '../src/static/spotify.png'
 
 function Playlist() {
     return (
-      
+       
+      <div>
+          <div id = 'container'>
+   
+   <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
+   <h3 id = 'navigation'>
+ About</h3>
+ </div>
         <div id  = 'tableBody'>
-            {/* style="height:100px;overflow:auto;" */}
-            <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
+          
     <h1 id = 'title'>* Rename Mix *</h1>
     <hr></hr>
 
@@ -62,6 +68,7 @@ function Playlist() {
 
   
       <h6 id='footer'>© 2022 DEW</h6>
+      </div>
       </div>
      
     );

@@ -68,17 +68,7 @@ h1{
   font-style: normal;
 }
 
-#footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-  font-family: din-condensed,sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
+
 /* #export{
   margin-left: auto;
     margin-right: auto;
@@ -113,10 +103,29 @@ span{
   font-weight: 300;
   font-style: normal;
 }
-#footer{
+#footer2{
+
+  /* font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; */
   color: white;
+  /* font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 6px;
+  display: block; */
 }
+
 #tableBody{width: 50%;}
 td,tr{
   vertical-align: middle;
+}
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  
 }

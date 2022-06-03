@@ -1,5 +1,3 @@
-
-import "./App.css";
 import Home from "./Home";
 import About from "./About";
 import Error from "./Error";
@@ -13,17 +11,12 @@ function App() {
   return (
   
     <Router>
-    {/* <nav>
-      <Link to = "/about">About</Link>
-      <Link>Home</Link>
-    </nav> */}
     <Routes>
-      <Route path = "/home" element ={<Home />} />
+      <Route path = "/" element ={<Home />} />
       <Route path = "/about" element ={<About />} />
       <Route path = "/emotions" element ={<Emotions />} />
       <Route path = "/playlist" element ={<Playlist />} />
       <Route path = "/load" element ={<Load />} />
- 
       <Route path = "*" element ={<Error />} />
 
     </Routes>

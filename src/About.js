@@ -88,12 +88,12 @@ function About() {
 
 
  
-    <h3 id = 'title2'>Email: feedback@euphonics.io</h3>
+    <h3 id = 'email'>Email: feedback@euphonics.io</h3>
 
 
 
 
-    <h3 id = 'title2' >© 2022 DEW</h3>
+    <h3 id = 'footer' >© 2022 DEW</h3>
     </div>
   );
 }
