@@ -41,15 +41,17 @@ body{
   font-style: normal;
 }
 #footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
+
+  font-size: 19px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: white;
   font-family: din-condensed,sans-serif;
   font-weight: 300;
   font-style: normal;
+  letter-spacing: 6px;
 }
 
 button{
@@ -93,4 +95,58 @@ span{
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+
+
+
+/* navigation */
+
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+#logo{
+  float: left;
+}
+
+
+#navigation{
+  position: relative;
+  margin: 0 20px;
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+h3{
+  color: white;
+  font-family: roboto-slab,serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+
+ 
+
+}
+
+
+
+#title2{
+
+  font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: white;
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 6px;
 }

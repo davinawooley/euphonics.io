@@ -39,15 +39,17 @@ body{
   font-style: normal;
 } */
 #footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
+
+  font-size: 17px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: white;
   font-family: din-condensed,sans-serif;
   font-weight: 300;
   font-style: normal;
+  letter-spacing: 6px;
 }
 
 button{
@@ -97,4 +99,61 @@ h2{
   font-family: roboto-slab,serif;
   font-weight: 400;
   font-style: normal;
+}
+iframe{
+  width: 400px;
+  height: 225px;
+
+
+}
+#centerVid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bodyTop{
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  color: white;
+  font-size: 15px;
+}
+
+.topText{
+  font-family: roboto-slab,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+#intro{
+  font-size: 17px;
+  font-family: roboto-slab,serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#disclaim{
+  font-size: 17px;
+  font-family: roboto-slab,serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#accessButtonD{
+  padding-right: 20px;
+
+}
+#email{
+  font-size: 17px;
+  font-family: roboto-slab,serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10%;
+  color: white;
+  text-align: center;
 }

@@ -1,33 +1,59 @@
 @import url('https://use.typekit.net/tnb3vsc.css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
+.App {
+  text-align: center;
+}
 body{
 
   background-color: black;
 }
-#makePurple{
-  color: #983FE0;
-  display: inline;
-}
-#logo{
 
-  margin-left: 25px;
-  display: inline-block;
-}
+#logoLarge{
+  margin-top: 20vh;
 
-
-/* end custom scroll bar */
-#title{
-  margin-top: 80vh;
-  font-size: 45px;
   text-align: center;
+  /* text-align: center; */
+
+  opacity: 0.045;
+
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  color: white;
-  font-family: din-condensed,sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  letter-spacing: 6px;
+  width: 400px;
+}
+
+/* custom scroll bar */
+#paddTop{
+  margin-top: 250px;
+  font-size: 300px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+} */
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(255, 255, 255)(128, 128, 128, 0.493); 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #983FE0; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #983FE0; 
+}
+
+/* end custom scroll bar */
+
+h1{
+  line-height: 5px;
 }
 
 #navigation{
@@ -59,27 +85,27 @@ button{
   padding: 30px;
 
 }
+#makePurple{
+  color: #983FE0;
+  display: inline;
+}
 
 #subtitle{
   color: #8F8F8F;
-  font-size: 15px;
-  letter-spacing: 5%;
+  color:white;
+
+  font-size: 30px;
+  letter-spacing: 2px;
   text-align: center;
   margin: auto;
-  width: 50%;
-  font-family: roboto-slab,serif;
-  font-weight: 400;
+  margin-top: 20px;
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
   font-style: normal;
+
+  /* margin-top: 45vh; */
 }
 
-button > #spotify,
-button > span {
-  vertical-align: middle;
-}
-
-#spotify{
-  margin-right: 30px;
-}
 
 span{
   font-family: din-condensed,sans-serif;
@@ -87,9 +113,3 @@ span{
   font-style: normal;
 }
 
-#accessButton{
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}

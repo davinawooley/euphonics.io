@@ -7,14 +7,23 @@ body{
 
   background-color: black;
 }
-table{
+#tableBody{
     color: #983FE0;
+    margin-left: auto;
+    margin-right: auto;
 }
 #logo{
   margin-top: 10vh;
   margin-left: 25px;
   display: relative;
+
 }
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
 /* custom scroll bar */
 #paddTop{
   margin-top: 250px;
@@ -70,6 +79,10 @@ h1{
   font-weight: 300;
   font-style: normal;
 }
+/* #export{
+  margin-left: auto;
+    margin-right: auto;
+} */
 
 button{
   border: 1px solid #983FE0;
@@ -93,8 +106,17 @@ button{
 }
 
 
+
+
 span{
   font-family: din-condensed,sans-serif;
   font-weight: 300;
   font-style: normal;
+}
+#footer{
+  color: white;
+}
+#tableBody{width: 50%;}
+td,tr{
+  vertical-align: middle;
 }

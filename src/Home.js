@@ -6,11 +6,15 @@ import "./Home.css";
 function Home() {
   return (
     <div>
-      <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
-  
-    <h3 id = 'navigation'>About</h3>
+      <div id = 'container'>
    
-    <h1 id = 'title'>euphonics.io</h1>
+      <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
+      <h3 id = 'navigation'>
+    About</h3>
+    </div>
+
+   
+    <h1 id ='title'>euphonics.io</h1>
     <p>The Hip-Hop Mental Health Playlist Generator</p>
     <button id = 'accessButton' >
          <img src = {imageSpotify} alt = "spotify logo" height = {27} id = 'spotify'/>
