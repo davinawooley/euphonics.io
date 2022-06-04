@@ -10,6 +10,11 @@ function Playlist() {
     return (
        
       <div>
+           <div id = 'container'>
+      <a href = './'>
+        <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></a>
+        <a href = './about'>   <h3 id = 'navigation'>About</h3></a>
+      </div>
          
         <div id  = 'tableBody'>
           

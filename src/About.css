@@ -44,8 +44,10 @@ h2{
 }
 
 iframe{
-  width: 400px;
-  height: 225px;
+  padding-top: 15px;
+  width: 75vw;
+  height: 40vh;
+
 }
 
 #centerVid{
@@ -110,4 +112,8 @@ iframe{
   font-weight: 300;
   font-style: normal;
   letter-spacing: 6px;
+}
+
+a{
+  text-decoration: none;
 }

@@ -18,7 +18,7 @@ function About() {
       <div id = 'centerVid'>
           <iframe
         
-        src="http://www.youtube.com/watch?v=nuPZUUED5uk"
+        src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         frameBorder="0"
         allow="autoplay; encrypted-media"
         allowFullScreen
