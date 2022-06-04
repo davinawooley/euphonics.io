@@ -94,9 +94,22 @@ button{
   font-style: normal;
   margin-top: 45vh;
 }
+#foot{
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding-top: 40px;
+}
 
-
-
+#exportButton{
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
 span{
   font-family: din-condensed,sans-serif;
@@ -104,28 +117,63 @@ span{
   font-style: normal;
 }
 #footer2{
-
-  /* font-size: 20px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%; */
   color: white;
-  /* font-family: din-condensed,sans-serif;
+}
+
+#tableBody{width: 50%;
+  font-family: din-condensed,sans-serif;
   font-weight: 300;
   font-style: normal;
-  letter-spacing: 6px;
-  display: block; */
+  font-size: 17px;
+
+
+
 }
 
-#tableBody{width: 50%;}
-td,tr{
-  vertical-align: middle;
+table {
+  border-collapse: collapse;
 }
+
+td,tr{
+  vertical-align: bottom;
+  color: white;
+}
+
+td{ border-bottom: 1pt solid grey;
+padding-bottom: 30px;
+}
+
+.title2{
+  width: 100%;
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+  text-align: left;
+  padding-left: 10%;
+  vertical-align: bottom;
+
+}
+#artist{
+  padding-top: 4px;
+  color: grey;
+  font-size: 17px;
+}
+
 #container{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   
+}
+
+#navigation{
+  color: white;
+  margin-right: 5vw;
+  margin-top: 5vh;
+  text-align:right;
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }

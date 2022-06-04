@@ -9,12 +9,7 @@ function Playlist() {
     return (
        
       <div>
-          <div id = 'container'>
-   
-   <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
-   <h3 id = 'navigation'>
- About</h3>
- </div>
+         
         <div id  = 'tableBody'>
           
     <h1 id = 'title'>* Rename Mix *</h1>
@@ -23,52 +18,43 @@ function Playlist() {
     <table>
         <tr>
             <td> <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></td>
-            <td>Song 1 Title <br></br> Artist</td>
+            <td class = "title2">Song 1 Title <br></br> <div id = "artist">Artist</div></td>
             <td>3:17</td>
         </tr>
+       
         <tr>
             <td> <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></td>
-            <td>Song 1 Title <br></br> Artist</td>
+            <td class = "title2">Song 2 Title <br></br> <div id = "artist">Artist</div></td>
             <td>3:17</td>
         </tr>
+
         <tr>
             <td> <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></td>
-            <td>Song 1 Title <br></br> Artist</td>
+            <td class = "title2">Song 3 Title <br></br> <div id = "artist">Artist</div></td>
             <td>3:17</td>
         </tr>
+
         <tr>
             <td> <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></td>
-            <td>Song 1 Title <br></br> Artist</td>
+            <td class = "title2">Song 4 Title <br></br> <div id = "artist">Artist</div></td>
             <td>3:17</td>
         </tr>
+
         <tr>
             <td> <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></td>
-            <td>Song 1 Title <br></br> Artist</td>
-            <td>3:17</td>
-        </tr>
-        <tr>
-            <td> <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></td>
-            <td>Song 1 Title <br></br> Artist</td>
-            <td>3:17</td>
-        </tr>
-        <tr>
-            <td> <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></td>
-            <td>Song 1 Title <br></br> Artist</td>
-            <td>3:17</td>
-        </tr>
-        <tr>
-            <td> <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></td>
-            <td>Song 1 Title <br></br> Artist</td>
+            <td class = "title2">Song 5 Title <br></br> <div id = "artist">Artist</div></td>
             <td>3:17</td>
         </tr>
     </table>
 
-    <button id = 'export'> <img src = {imageSpotify} alt = "export to spotify" height = {27}/><span>Export to Spotify</span></button>
-   
+        <button id = "exportButton" >
+         <img src = {imageSpotify} alt = "spotify logo" height = {27} id = "spotify"/>
+         <span>Export to Spotify</span></button>
 
   
-      <h6 id='footer'>© 2022 DEW</h6>
+      
       </div>
+      <h6 id  = "foot" >© 2022 DEW</h6>
       </div>
      
     );
