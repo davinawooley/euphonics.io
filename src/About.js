@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import imageLogo from './static/logo.png'
 import imageSpotify from './static/spotify.png'
+import './Home';
 
 function About() {
   return (
@@ -9,7 +10,8 @@ function About() {
     <div>
 
       <div id = 'container'>
-        <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
+      <a href = './'>
+        <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></a>
         <h3 id = 'navigation'>About</h3>
       </div>
 
@@ -77,7 +79,7 @@ function About() {
     </h2>
     </div>
  
-    <h3 id = 'email'>Email: feedback@euphonics.io</h3>
+    <a href = "mailto: abc@example.com"><h3 id = 'email'>Email: feedback@euphonics.io</h3></a>
 
     <h3 id = 'foot' >© 2022 DEW</h3>
     </div>

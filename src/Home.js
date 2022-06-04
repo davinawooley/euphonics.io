@@ -2,6 +2,7 @@ import React from "react";
 import imageLogo from "./static/logo.png";
 import imageSpotify from "./static/spotify.png";
 import './Home.css';
+import './About';
 
 
 function Home() {
@@ -10,8 +11,11 @@ function Home() {
       <div id = "container">
    
       <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
-      <h3 id = "navigation">
-    About</h3>
+      <a href = './About'>  <h3 id = "navigation">
+    About</h3></a>
+
+
+
     </div>
 
    

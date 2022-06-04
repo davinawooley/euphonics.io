@@ -1,5 +1,7 @@
 import React from 'react';
 import './Emotions.css';
+import './About';
+import './Home';
 import imageLogo from './static/logo.png'
 import imageSpotify from './static/spotify.png'
 
@@ -7,10 +9,10 @@ export default function Emotions() {
     return (
       <div>
          <div id = 'container'>
-   
-   <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
+         <a href = './'>
+   <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></a>
    <h3 id = 'navigation'>
- About</h3>
+ <a href = './About'>About</a></h3>
  </div>
       <div id = "center">
      
