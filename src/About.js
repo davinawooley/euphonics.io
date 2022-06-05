@@ -15,7 +15,7 @@ function About() {
         <h3 id = 'navigation'>About</h3>
       </div>
 
-      <div id = 'centerVid'>
+      {/* <div id = 'centerVid'>
           <iframe
         
         src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -25,7 +25,7 @@ function About() {
         title="video"
       />{" "}
 
-      </div>
+      </div> */}
 
 
     <h1 id = 'title'>euphonics.io</h1>
