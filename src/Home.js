@@ -2,37 +2,37 @@ import React from "react";
 import imageLogo from "./static/logo.png";
 import imageSpotify from "./static/spotify.png";
 import './Home.css';
-// import './About';
-// import Modal from '@material-ui/core/Modal';
+import './About';
+import Modal from '@material-ui/core/Modal';
   
 function Home() {
-//   const [open, setOpen] = React.useState(false);
-//   const handleClose = () => {
-//     setOpen(false);
-//   };
+  const [open, setOpen] = React.useState(false);
+  const handleClose = () => {
+    setOpen(false);
+  };
     
-//   const handleOpen = () => {
-//     setOpen(true);
-//   };
+  const handleOpen = () => {
+    setOpen(true);
+  };
 
   return (
     <div>
       <div id = "container">
         <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
-        <a href = './About'>  <h3 id = "navigation">About</h3></a>
+        <a href = './about'>  <h3 id = "navigation">About</h3></a>
       </div>
 
     <h1 id ="title">euphonics.io</h1>
     <p>The Hip-Hop Mental Health Playlist Generator</p>
 
     <button id = "accessButton" type="button" 
-    //   onClick={handleOpen}
+      onClick={handleOpen}
       >
           <img src = {imageSpotify} alt = "spotify logo" height = {27} id = "spotify"/>
       <span>Access with Spotify</span>
     </button>
 
-      {/* <Modal
+      <Modal
           onClose={handleClose}
           open={open}
           style={{
@@ -51,9 +51,9 @@ function Home() {
         >
 
         <h2>Username/Password</h2>
-      </Modal> */}
+      </Modal>
 
-      {/* <a href = 'https://davinawooley.com' target='_blank'>   <h6 id="footer">© 2022 DEW</h6></a> */}
+      {/* <a href = 'https://davinawooley.com'>   <h6 id="footer">© 2022 DEW</h6></a> */}
     </div>
   );
 }
