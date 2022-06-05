@@ -33,13 +33,13 @@ function About() {
     <button id = 'accessButtonD' > <img src = {imageLogo} alt = "euphonics logo" height = {27} id = 'spotify'/><span>Our Story</span></button>
 
     <h2 id = 'intro'>Euphonics.io implements an AI algorithms that analyzes user listening history and favorite artists to generate hip hop playlists. 
-    <br></br>
+    <br/>
     Euphonics.io is a free web application that integrates with Spotify applications. 
-    <br></br>
+    <br/>
     Euphonics.io is an application for the people. It is and will always be free. We do not store your personal information. 
     </h2>
-    <br></br>
-    <br></br>
+    <br/>
+    <br/>
     </div>
 
     <div className = 'bodyTop'>
@@ -56,26 +56,26 @@ function About() {
    
     <h2 id = 'disclaim'>    
       National Suicide Prevention Hotline 
-      <br></br>1.800.273.8255
-      <br></br><br></br>
+      <br/>1.800.273.8255
+      <br/><br/>
       National Suicide Prevention Lifeline (for Deaf and Hard of Hearing)
-      <br></br>
+      <br/>
       For TTY Users: Use relay service or dial 711 then 1.800.273.8255
-      <br></br>
+      <br/>
       National Domestic Violence Hotline 
-      <br></br>1.800.799.7233
-      <br></br><br></br>
+      <br/>1.800.799.7233
+      <br/><br/>
       National Grad Crisis Line 
-      <br></br>1.877.472.3457
-      <br></br><br></br>
+      <br/>1.877.472.3457
+      <br/><br/>
       National Sexual Assault Hotline 
-      <br></br>1.800.656.4673
-      <br></br><br></br>
+      <br/>1.800.656.4673
+      <br/><br/>
       National Suicide Prevention Lifeline 
-      <br></br>1.800.273.8255
-      <br></br><br></br>
+      <br/>1.800.273.8255
+      <br/><br/>
       Substance Abuse and Mental Health Services Administration National Helpline 
-      <br></br>1.800.662.4357
+      <br/>1.800.662.4357
     </h2>
     </div>
  
