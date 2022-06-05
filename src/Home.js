@@ -1,7 +1,7 @@
 import React from "react";
 import imageLogo from "./static/logo.png";
 import imageSpotify from "./static/spotify.png";
-// import './Home.css';
+import './Home.css';
 // import './About';
 // import Modal from '@material-ui/core/Modal';
   
