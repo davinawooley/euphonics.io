@@ -30,7 +30,7 @@ function About() {
 
     <h1 id = 'title'>euphonics.io</h1>
     <div className = 'bodyTop'>
-    <a><button id = 'accessButtonD' > <img src = {imageLogo} alt = "euphonics logo" height = {27} id = 'spotify'/><span>Our Story</span></button></a>
+    <button id = 'accessButtonD' > <img src = {imageLogo} alt = "euphonics logo" height = {27} id = 'spotify'/><span>Our Story</span></button>
 
     <h2 id = 'intro'>Euphonics.io implements an AI algorithms that analyzes user listening history and favorite artists to generate hip hop playlists. 
     <br></br>
@@ -43,7 +43,7 @@ function About() {
     </div>
 
     <div className = 'bodyTop'>
-    <a><button id = 'accessButtonD' > <img src = {imageSpotify} alt = "spotify logo" height = {27} id = 'spotify'/><span>DISCLAIMER</span></button></a>
+    <button id = 'accessButtonD' > <img src = {imageSpotify} alt = "spotify logo" height = {27} id = 'spotify'/><span>DISCLAIMER</span></button>
    
 
     <h2 id = 'disclaim'> Euphonics.io is not a substitution to receiving medical attention. This application is meant to create personalized playlists to provide perspective to what users are navigating through to benefit users.</h2>
@@ -51,7 +51,7 @@ function About() {
 
 
     <div className = 'bodyTop'>
-    <a><button id = 'accessButtonD' > <img src = {imageSpotify} alt = "spotify logo" height = {27} id = 'spotify'/><span>MENTAL HEALTH RESOURCES</span></button></a>
+    <button id = 'accessButtonD' > <img src = {imageSpotify} alt = "spotify logo" height = {27} id = 'spotify'/><span>MENTAL HEALTH RESOURCES</span></button>
    
    
     <h2 id = 'disclaim'>    
