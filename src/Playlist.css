@@ -1,0 +1,165 @@
+@import url('https://use.typekit.net/tnb3vsc.css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+body{
+  background-color: black;
+}
+
+#tableBody{
+    color: #983FE0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo{
+  margin-top: 4vh;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* custom scroll bar */
+#paddTop{
+  margin-top: 250px;
+  font-size: 300px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+} 
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(255, 255, 255)(128, 128, 128, 0.493); 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #983FE0; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #983FE0; 
+}
+
+h1{
+  line-height: 5px;
+}
+
+#navigation{
+  color: white;
+  margin-right: 5vw;
+  margin-top: 5vh;
+  text-align:right;
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+button{
+  border: 1px solid #983FE0;
+  background: transparent;
+  color: white;
+  font-size: 19px;
+  padding: 30px;
+}
+
+#subtitle{
+  color: #8F8F8F;
+  font-size: 30px;
+  letter-spacing: 5%;
+  text-align: center;
+  margin: auto;
+  font-family: roboto-slab,serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 45vh;
+}
+
+#foot{
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding-top: 40px;
+}
+
+#exportButton{
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+span{
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#footer2{
+  color: white;
+}
+
+#tableBody{width: 50%;
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 17px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,tr{
+  vertical-align: bottom;
+  color: white;
+}
+
+td{ border-bottom: 1pt solid grey;
+padding-bottom: 15px;
+}
+
+.title2{
+  width: 100%;
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+  text-align: left;
+  padding-left: 10%;
+  vertical-align: bottom;
+}
+
+#artist{
+  padding-top: 4px;
+  color: grey;
+  font-size: 17px;
+}
+
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+#navigation{
+  color: white;
+  margin-right: 5vw;
+  margin-top: 5vh;
+  text-align:right;
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
