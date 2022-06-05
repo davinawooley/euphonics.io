@@ -3,17 +3,17 @@ import imageLogo from "./static/logo.png";
 import imageSpotify from "./static/spotify.png";
 // import './Home.css';
 // import './About';
-import Modal from '@material-ui/core/Modal';
+// import Modal from '@material-ui/core/Modal';
   
 function Home() {
-  const [open, setOpen] = React.useState(false);
-  const handleClose = () => {
-    setOpen(false);
-  };
+//   const [open, setOpen] = React.useState(false);
+//   const handleClose = () => {
+//     setOpen(false);
+//   };
     
-  const handleOpen = () => {
-    setOpen(true);
-  };
+//   const handleOpen = () => {
+//     setOpen(true);
+//   };
 
   return (
     <div>
@@ -26,11 +26,13 @@ function Home() {
     <p>The Hip-Hop Mental Health Playlist Generator</p>
 
     <button id = "accessButton" type="button" 
-      onClick={handleOpen}><img src = {imageSpotify} alt = "spotify logo" height = {27} id = "spotify"/>
+    //   onClick={handleOpen}
+      >
+          <img src = {imageSpotify} alt = "spotify logo" height = {27} id = "spotify"/>
       <span>Access with Spotify</span>
     </button>
 
-      <Modal
+      {/* <Modal
           onClose={handleClose}
           open={open}
           style={{
@@ -49,7 +51,7 @@ function Home() {
         >
 
         <h2>Username/Password</h2>
-      </Modal>
+      </Modal> */}
 
       <a href = 'https://davinawooley.com' target='_blank'>   <h6 id="footer">© 2022 DEW</h6></a>
     </div>
