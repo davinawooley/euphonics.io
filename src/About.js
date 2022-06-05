@@ -15,19 +15,6 @@ function About() {
         <h3 id = 'navigation'>About</h3>
       </div>
 
-      {/* <div id = 'centerVid'>
-          <iframe
-        
-        src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-        frameBorder="0"
-        allow="autoplay; encrypted-media"
-        allowFullScreen
-        title="video"
-      />{" "}
-
-      </div> */}
-
-
     <h1 id = 'title'>euphonics.io</h1>
     <div className = 'bodyTop'>
     <button id = 'accessButtonD' > <img src = {imageLogo} alt = "euphonics logo" height = {27} id = 'spotify'/><span>Our Story</span></button>
@@ -57,23 +44,23 @@ function About() {
     <h2 id = 'disclaim'>    
       National Suicide Prevention Hotline 
       <br/>1.800.273.8255
-      <br/><br/>
+      <br/>
       National Suicide Prevention Lifeline (for Deaf and Hard of Hearing)
       <br/>
       For TTY Users: Use relay service or dial 711 then 1.800.273.8255
       <br/>
       National Domestic Violence Hotline 
       <br/>1.800.799.7233
-      <br/><br/>
+      <br/>
       National Grad Crisis Line 
       <br/>1.877.472.3457
-      <br/><br/>
+      <br/>
       National Sexual Assault Hotline 
       <br/>1.800.656.4673
       <br/><br/>
       National Suicide Prevention Lifeline 
       <br/>1.800.273.8255
-      <br/><br/>
+      <br/>
       Substance Abuse and Mental Health Services Administration National Helpline 
       <br/>1.800.662.4357
     </h2>

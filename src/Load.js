@@ -12,7 +12,7 @@ function Load() {
     we're creating <div id = 'makePurple'>your mix</div>
     </h2>
       <h6 id='footer'>© 2022 DEW</h6>
-      </div>
+    </div>
     );
   }
 
