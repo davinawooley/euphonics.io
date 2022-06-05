@@ -1,5 +1,6 @@
 import './App.css';
 import Home from "./Home";
+import Error from "./Error";
 // import {BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -11,8 +12,8 @@ function App() {
         {/* <Route path = "/about" element ={<About />} />
         <Route path = "/emotions" element ={<Emotions />} />
         <Route path = "/playlist" element ={<Playlist />} />
-        <Route path = "/load" element ={<Load />} />
-        <Route path = "*" element ={<Error />} /> */}
+        <Route path = "/load" element ={<Load />} />*/}
+         <Route path = "*" element ={<Error />} />
     </Routes>
   </Router> 
   );

@@ -19,7 +19,7 @@ function Home() {
     <div>
       <div id = "container">
         <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
-        <a href = './about'>  <h3 id = "navigation">About</h3></a>
+        <a href = './About'>  <h3 id = "navigation">About</h3></a>
       </div>
 
     <h1 id ="title">euphonics.io</h1>
