@@ -53,7 +53,7 @@ function Home() {
         <h2>Username/Password</h2>
       </Modal> */}
 
-      <a href = 'https://davinawooley.com' target='_blank'>   <h6 id="footer">© 2022 DEW</h6></a>
+      {/* <a href = 'https://davinawooley.com' target='_blank'>   <h6 id="footer">© 2022 DEW</h6></a> */}
     </div>
   );
 }
