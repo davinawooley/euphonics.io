@@ -4,7 +4,7 @@ import imageSpotify from "./static/spotify.png";
 import './Home.css';
 import './About';
 import Modal from '@material-ui/core/Modal';
-import { NavBar } from './NavBar.js';
+// import { NavBar } from './NavBar.js';
   
 function Home() {
   const [open, setOpen] = React.useState(false);
@@ -19,7 +19,7 @@ function Home() {
   return (
     <div>
       <div id = "container">
-      <NavBar />
+      {/* <NavBar /> */}
         <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
         <a href = './About'>  <h3 id = "navigation">About</h3></a>
       </div>
