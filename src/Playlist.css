@@ -1,58 +1,48 @@
 @import url('https://use.typekit.net/tnb3vsc.css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
-/* .App {
-  text-align: center;
-} */
 body{
-
   background-color: black;
 }
+
 #tableBody{
     color: #983FE0;
     margin-left: auto;
     margin-right: auto;
 }
+
 #logo{
   margin-top: 4vh;
   margin-left: 25px;
   display: inline-block;
-
 }
+
 hr{
   margin-top: 20px;
   margin-bottom: 20px;
-
 }
 
-/* custom scroll bar */
 #paddTop{
   margin-top: 250px;
   font-size: 300px;
 }
 
-/* width */
 ::-webkit-scrollbar {
   width: 5px;
 } 
 
-/* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px rgb(255, 255, 255)(128, 128, 128, 0.493); 
   border-radius: 5px;
 }
  
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #983FE0; 
   border-radius: 5px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #983FE0; 
 }
-
-/* end custom scroll bar */
 
 h1{
   line-height: 5px;
@@ -68,19 +58,12 @@ h1{
   font-style: normal;
 }
 
-
-/* #export{
-  margin-left: auto;
-    margin-right: auto;
-} */
-
 button{
   border: 1px solid #983FE0;
   background: transparent;
   color: white;
   font-size: 19px;
   padding: 30px;
-
 }
 
 #subtitle{
@@ -94,6 +77,7 @@ button{
   font-style: normal;
   margin-top: 45vh;
 }
+
 #foot{
   font-size: 17px;
   text-align: center;
@@ -116,6 +100,7 @@ span{
   font-weight: 300;
   font-style: normal;
 }
+
 #footer2{
   color: white;
 }
@@ -138,7 +123,6 @@ td,tr{
 
 td{ border-bottom: 1pt solid grey;
 padding-bottom: 15px;
-
 }
 
 .title2{
@@ -150,8 +134,8 @@ padding-bottom: 15px;
   text-align: left;
   padding-left: 10%;
   vertical-align: bottom;
-
 }
+
 #artist{
   padding-top: 4px;
   color: grey;
@@ -162,8 +146,7 @@ padding-bottom: 15px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  
+  justify-content: space-between; 
 }
 
 #navigation{

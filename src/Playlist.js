@@ -24,31 +24,31 @@ function Playlist() {
     <table>
         <tr>
             <td> <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></td>
-            <td class = "title2">Song 1 Title <br></br> <div id = "artist">Artist</div></td>
+            <td className = "title2">Song 1 Title <br/> <div id = "artist">Artist</div></td>
             <td>3:17</td>
         </tr>
        
         <tr>
             <td> <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></td>
-            <td class = "title2">Song 2 Title <br></br> <div id = "artist">Artist</div></td>
+            <td className = "title2">Song 2 Title <br/>  <div id = "artist">Artist</div></td>
             <td>3:17</td>
         </tr>
 
         <tr>
             <td> <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></td>
-            <td class = "title2">Song 3 Title <br></br> <div id = "artist">Artist</div></td>
+            <td className = "title2">Song 3 Title <br/>  <div id = "artist">Artist</div></td>
             <td>3:17</td>
         </tr>
 
         <tr>
             <td> <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></td>
-            <td class = "title2">Song 4 Title <br></br> <div id = "artist">Artist</div></td>
+            <td className = "title2">Song 4 Title <br/>  <div id = "artist">Artist</div></td>
             <td>3:17</td>
         </tr>
 
         <tr>
             <td> <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></td>
-            <td class = "title2">Song 5 Title <br></br> <div id = "artist">Artist</div></td>
+            <td className = "title2">Song 5 Title <br/>  <div id = "artist">Artist</div></td>
             <td>3:17</td>
         </tr>
     </table>
@@ -57,12 +57,9 @@ function Playlist() {
          <img src = {imageSpotify} alt = "spotify logo" height = {27} id = "spotify"/>
          <span>Export to Spotify</span></button>
 
-  
-      
       </div>
       <h6 id  = "foot" >© 2022 DEW</h6>
       </div>
-     
     );
   }
   export default Playlist;

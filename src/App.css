@@ -1,152 +1,38 @@
-@import url('https://use.typekit.net/tnb3vsc.css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
-
 .App {
   text-align: center;
 }
-body{
 
-  background-color: black;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-#logo{
-  margin-top: -10vh;
-  margin-left: 25px;
-  display: relative;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-#title{
-  margin-top: 30vh;
-  font-size: 45px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  color: white;
-  font-family: din-condensed,sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  letter-spacing: 6px;
-}
-/* h1{
-  line-height: 5px;
-} */
-
-#navigation{
-  color: white;
-  margin-right: 5vw;
-  margin-top: 5vh;
-  text-align:right;
-  font-family: din-condensed,sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-#footer{
-
-  font-size: 19px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  color: white;
-  font-family: din-condensed,sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  letter-spacing: 6px;
-}
-
-button{
-  border: 1px solid #983FE0;
-  background: transparent;
-  color: white;
-  font-size: 19px;
-  padding: 30px;
-
-}
-
-/* #subtitle{
-  color: #8F8F8F;
-  font-size: 15px;
-  letter-spacing: 5%;
-  text-align: center;
-  margin: auto;
-  width: 50%;
-  font-family: roboto-slab,serif;
-  font-weight: 400;
-  font-style: normal;
-} */
-
-button > #spotify,
-button > span {
-  vertical-align: middle;
-}
-
-#spotify{
-  margin-right: 30px;
-}
-
-span{
-  font-family: din-condensed,sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-#accessButton{
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-
-
-
-/* navigation */
-
-#container{
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  
-}
-#logo{
-  float: left;
-}
-
-
-#navigation{
-  position: relative;
-  margin: 0 20px;
-  list-style: none;
-  display: inline-block;
-  cursor: pointer;
-}
-
-
-h3{
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
-  font-family: roboto-slab,serif;
-  font-weight: 400;
-  font-style: normal;
-
-
-
- 
-
 }
 
+.App-link {
+  color: #61dafb;
+}
 
-
-#title2{
-
-  font-size: 20px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  color: white;
-  font-family: din-condensed,sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  letter-spacing: 6px;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
