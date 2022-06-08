@@ -24,7 +24,7 @@ function Home() {
         <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
         <a href = './about'>  <h3 id = "navigation">About</h3></a>
       </div>
-
+<div id = "space">
       <h1 class ="title">euphonics.io</h1>
       <p>The Hip-Hop Mental Health Playlist Generator</p>
 
@@ -55,6 +55,8 @@ function Home() {
 
         <h2>Username/Password</h2>
       </Modal>
+      </div>
+      <h3 id = 'foot' >© 2022 DEW</h3>
     </div>
   );
 }
