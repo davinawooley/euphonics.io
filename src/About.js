@@ -3,12 +3,15 @@ import './About.css';
 import imageLogo from './static/logo.png'
 import imageSpotify from './static/spotify.png'
 import './Home';
+import { Helmet } from 'react-helmet';
 
 function About() {
   return (
     
     <div>
-
+      <Helmet><title>Euphonics</title>
+        </Helmet>
+   
       <div id = 'container'>
       <a href = './'>
         <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></a>

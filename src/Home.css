@@ -4,8 +4,8 @@ body{
   background-color: black;
 }
 
-#title{
-  margin-top: 27vh;
+.title{
+  margin-top: 33vh;
   font-size: 45px;
   text-align: center;
   margin-left: auto;
@@ -23,9 +23,8 @@ h1{
 }
 
 p{
-    color: #8F8F8F;
-    font-size: 18px;
-    letter-spacing: 5%;
+    color: rgb(128, 128, 128);
+    font-size: 16px;
     text-align: center;
     margin: auto;
     font-family: roboto-slab,serif;
@@ -69,7 +68,7 @@ span{
 }
 
 #accessButton{
-  margin-top: 5%;
+  /* margin-top: 5px; */
   margin-left: auto;
   margin-right: auto;
   display: block;
