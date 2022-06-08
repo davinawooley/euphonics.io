@@ -1,10 +1,10 @@
 import React from 'react';
 import './Load.css';
-import imageLogo from '../src/static/logo.png'
+import imageLogo from '../src/static/logo.png';
 import { Helmet } from 'react-helmet';
 
 function Load() {
-    return (
+    return(
     <div>
     <Helmet><title>euphonics.io</title>
     </Helmet>

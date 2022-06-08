@@ -21,7 +21,7 @@ export default function Emotions() {
         </Helmet>
          <div id = 'container'>
           <a href = './'><img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></a>
-          <a href = './About'><h3 id = 'navigation'>About</h3></a>
+          <a href = './about'><h3 id = 'navigation'>About</h3></a>
       </div>
       <div id = "center">
      

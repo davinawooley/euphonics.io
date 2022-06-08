@@ -22,7 +22,7 @@ function Home() {
       </Helmet>
       <div id = "container">
         <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
-        <a href = './About'>  <h3 id = "navigation">About</h3></a>
+        <a href = './about'>  <h3 id = "navigation">About</h3></a>
       </div>
 
       <h1 class ="title">euphonics.io</h1>

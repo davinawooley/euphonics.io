@@ -1,7 +1,6 @@
 import React from 'react';
 import './About.css';
-import imageLogo from './static/logo.png'
-import imageSpotify from './static/spotify.png'
+import imageLogo from './static/logo.png';
 import './Home';
 import { Helmet } from 'react-helmet';
 
@@ -33,7 +32,9 @@ function About() {
     </div>
 
     <div className = 'bodyTop'>
-    <button id = 'accessButtonD' > <img src = {imageSpotify} alt = "spotify logo" height = {27} id = 'spotify'/><span>DISCLAIMER</span></button>
+    <button id = 'accessButtonD' > 
+    {/* <img src = {imageSpotify} alt = "spotify logo" height = {27} id = 'spotify'/> */}
+    <span>DISCLAIMER</span></button>
    
 
     <h2 id = 'disclaim'> Euphonics.io is not a substitution to receiving medical attention. This application is meant to create personalized playlists to provide perspective to what users are navigating through to benefit users.</h2>
@@ -41,7 +42,9 @@ function About() {
 
 
     <div className = 'bodyTop'>
-    <button id = 'accessButtonD' > <img src = {imageSpotify} alt = "spotify logo" height = {27} id = 'spotify'/><span>MENTAL HEALTH RESOURCES</span></button>
+    <button id = 'accessButtonD' > 
+    {/* <img src = {imageSpotify} alt = "spotify logo" height = {27} id = 'spotify'/> */}
+    <span>MENTAL HEALTH RESOURCES</span></button>
    
    
     <h2 id = 'disclaim'>    
