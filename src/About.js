@@ -1,7 +1,8 @@
 import React from 'react';
+import './Home';
 import './About.css';
 import imageLogo from './static/logo.png';
-import './Home';
+
 import { Helmet } from 'react-helmet';
 
 function About() {
@@ -74,7 +75,7 @@ function About() {
  
     <a href = "mailto: abc@example.com"><h3 id = 'email'>Email: feedback@euphonics.io</h3></a>
 
-    <h3 id = 'foot' >© 2022 DEW</h3>
+    <h3 id = 'foot2' >© 2022 DEW</h3>
     </div>
   );
 }
