@@ -9,7 +9,7 @@ function About() {
   return (
     
     <div>
-      <Helmet><title>Euphonics</title>
+      <Helmet><title>euphonics.io</title>
         </Helmet>
    
       <div id = 'container'>

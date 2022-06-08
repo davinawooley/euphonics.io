@@ -4,13 +4,16 @@ import imageLogo from '../src/static/logo.png'
 import imageSpotify from '../src/static/spotify.png'
 import './About';
 import './Home';
+import { Helmet } from 'react-helmet';
 
 
 function Playlist() {
     return (
        
       <div>
-           <div id = 'container'>
+      <Helmet><title>euphonics.io</title>
+      </Helmet>
+    <div id = 'container'>
       <a href = './'>
         <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></a>
         <a href = './about'>   <h3 id = 'navigation'>About</h3></a>

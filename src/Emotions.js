@@ -4,6 +4,7 @@ import './About';
 import './Home';
 import imageLogo from './static/logo.png'
 import imageSpotify from './static/spotify.png'
+import { Helmet } from 'react-helmet';
 
 export default function Emotions() {
 
@@ -16,6 +17,8 @@ export default function Emotions() {
     return (
    
       <div>
+         <Helmet><title>euphonics.io</title>
+        </Helmet>
          <div id = 'container'>
           <a href = './'><img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></a>
           <a href = './About'><h3 id = 'navigation'>About</h3></a>

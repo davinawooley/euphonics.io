@@ -1,11 +1,13 @@
 import React from 'react';
 import './Load.css';
 import imageLogo from '../src/static/logo.png'
-
+import { Helmet } from 'react-helmet';
 
 function Load() {
     return (
     <div>
+    <Helmet><title>euphonics.io</title>
+    </Helmet>
     <img src = {imageLogo} alt = "eupohonics logo" id  = "logoLarge"/>
     <h2 id = 'subtitle'>Hold Tight.. 
     <br/>
