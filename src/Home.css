@@ -68,8 +68,9 @@ button{
   border: 1px solid #983FE0;
   color: white;
   font-size: 19px;
-  padding: 30px;
+  /* padding: 30px; */
   display: inline;
+  cursor: pointer;
 }
 
 button > #spotify,
@@ -80,6 +81,14 @@ button > span {
 #spotify{
   margin-right: 30px;
 }
+#centerButton{
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  /* display: block; */
+  display: flex;
+  justify-content: center;
+}
 
 span{
   font-family: din-condensed,sans-serif;
@@ -88,9 +97,6 @@ span{
 }
 
 #accessButton{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
   background: rgba(24, 11, 34, 0.612);
   box-shadow: 0px 0px 500px black;
 }
@@ -107,9 +113,7 @@ span{
   }
 
   #navigation{
-    cursor: pointer;
     text-align: right;
-    
   }
 
   h3{
