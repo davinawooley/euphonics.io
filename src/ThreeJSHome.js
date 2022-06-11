@@ -53,7 +53,8 @@ const colors = new Float32Array(count*3)
       "color",
       new THREE.BufferAttribute(colors, 3)
     );
-  }, [particles]);
+  // }, []);
+});
 
   return (
     <points ref={particles}>
