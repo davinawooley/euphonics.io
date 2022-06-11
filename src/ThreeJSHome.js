@@ -79,8 +79,6 @@ const colors = new Float32Array(count*3)
 export default function ThreeJSHome() {
   return (
     <Canvas style={{ height: `100vh` }}>
-      {/* <color attach="background" args={["#000000"]} /> */}
-
       <Suspense fallback={null}>
         <Particles />
       </Suspense>

@@ -36,8 +36,6 @@ function Home() {
 
 </div>
 <div id = "fullbody">
-
-      {/* <Canvas><Box /></Canvas> */}
       <Helmet><title>euphonics.io</title>
       </Helmet>
       <div id = "container">
