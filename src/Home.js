@@ -1,10 +1,13 @@
 import React from "react";
 import imageLogo from "./static/logo.png";
 import imageSpotify from "./static/spotify.png";
-import * as THREE from "three";
 import './Home.css';
 import './About';
 import { Helmet } from 'react-helmet';
+import {Canvas} from 'react-three-fiber';
+import ThreeJSHome from './ThreeJSHome';
+import {OrbitControls} from "@react-three/drei";
+
 
 
 
@@ -22,9 +25,18 @@ function Home() {
   return (
     
     <div>
+      <div id = "threeJS" style={{  width: `100%`, height: `100vh` }}>
+        {/* <Canvas className = "canvas">
+          <ThreeJSHome />
+  <OrbitControls enableZoom = {false}/>
+  <ambientLight intensity = {0.5}/>
 
+ 
+  </Canvas> */}
+  <ThreeJSHome />
 
-
+</div>
+<div id = "fullbody">
 
       {/* <Canvas><Box /></Canvas> */}
       <Helmet><title>euphonics.io</title>
@@ -34,6 +46,8 @@ function Home() {
         <a href = './about'>  <h3 id = "navigation">About</h3></a>
       </div>
 <div id = "space">
+
+
       <h1 class ="title">euphonics.io</h1>
       <p>The Hip-Hop Mental Health Playlist Generator</p>
 
@@ -44,7 +58,11 @@ function Home() {
       </button>
       </div>
       <h3 id = 'foot' >© 2022 DEW</h3>
+ 
     </div>
+    </div>
+
+ 
   );
 }
 

@@ -1,37 +1,91 @@
-// import React, { useRef, useState } from 'react'
-// import ReactDOM from 'react-dom'
-// import { createRoot } from 'react-dom/client'
-// import { Canvas, useFrame } from '@react-three/fiber'
 
+import React, { useRef, useEffect, Suspense } from "react";
+import * as THREE from "three";
+import { Canvas, useLoader, useFrame } from "react-three-fiber";
+import { OrbitControls } from "@react-three/drei";
 
-// function Box(props) {
-//     // This reference will give us direct access to the mesh
-//     const mesh = useRef()
-//     // Set up state for the hovered and active state
-//     const [hovered, setHover] = useState(false)
-//     const [active, setActive] = useState(false)
-//     // Subscribe this component to the render-loop, rotate the mesh every frame
-//     useFrame((state, delta) => (mesh.current.rotation.x += 0.01))
-//     // Return view, these are regular three.js elements expressed in JSX
-//     return (
-//       <mesh
-//         {...props}
-//         ref={mesh}
-//         scale={active ? 1.5 : 1}
-//         onClick={(event) => setActive(!active)}
-//         onPointerOver={(event) => setHover(true)}
-//         onPointerOut={(event) => setHover(false)}>
-//         <boxGeometry args={[1, 1, 1]} />
-//         <meshStandardMaterial color={hovered ? 'hotpink' : 'orange'} />
-//       </mesh>
-//     )
-//   }
-  
-//   createRoot(document.getElementById('root')).render(
-//     <Canvas>
-//       <ambientLight />
-//       <pointLight position={[10, 10, 10]} />
-//       <Box position={[-1.2, 0, 0]} />
-//       <Box position={[1.2, 0, 0]} />
-//     </Canvas>,
-//   )
+import textureUrl from "./static/textures/particles/12.png";
+
+const Particles = () => {
+  const count = 50000;
+  const positions = new Float32Array(count * 3)
+const colors = new Float32Array(count*3)
+  const particles = new THREE.TorusBufferGeometry(1, 32, 32);
+  const textureLoader = useLoader(THREE.TextureLoader, textureUrl);
+  const clock = new THREE.Clock();
+
+  useFrame(() => {
+    const elapsedTime = clock.getElapsedTime();
+
+    for (let i = 0; i < count; i++) {
+      const i3 = i * 3;
+      positions[i] = (Math.random() -.15)*100
+      colors[i] = Math.random()
+
+      const x = 
+      // particles.current.geometry.attributes.position.array[i3*5 ];
+      particles.current.geometry.attributes.position.array[i3 * 3];
+      // Math.sin(
+      //   elapsedTime + x
+      // );
+      // particles.current.geometry.attributes.color.['purple', 1];
+     
+
+      particles.current.geometry.attributes.position.array[i3*5+10] = Math.sin(elapsedTime+x)
+    }
+    particles.current.geometry.attributes.position.needsUpdate = true;
+  });
+
+  useEffect(() => {
+    const positions = new Float32Array(count * 3);
+    const colors = new Float32Array(count * 3);
+
+    for (let i = 0; i < count * 3; i++) {
+      positions[i] = (Math.random() - 0.5) * 100;
+      colors[i] = Math.random();
+    }
+
+    particles.current.geometry.setAttribute(
+      "position",
+      new THREE.BufferAttribute(positions, 3)
+    );
+    particles.current.geometry.setAttribute(
+      "color",
+      new THREE.BufferAttribute(colors, 3)
+    );
+  }, []);
+
+  return (
+    <points ref={particles}>
+      <bufferGeometry />
+      <pointsMaterial
+        // size={0.075}
+        size={0.75}
+        sizeAttenuation={true}
+        transparent = {true}
+        depthWrite={false}
+        vertexColors={true}
+        transparent={true}
+        blending= {THREE.AdditiveBlending}
+        depthWrite={false}
+        vertexColors= {true}
+        alphaMap={textureLoader}
+        blending={THREE.AdditiveBlending}
+      />
+    </points>
+  );
+};
+
+export default function ThreeJSHome() {
+  return (
+    <Canvas style={{ height: `100vh` }}>
+      {/* <color attach="background" args={["#000000"]} /> */}
+
+      <Suspense fallback={null}>
+        <Particles />
+      </Suspense>
+
+      <OrbitControls />
+    </Canvas>
+  );
+}

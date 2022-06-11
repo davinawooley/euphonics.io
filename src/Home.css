@@ -5,8 +5,22 @@ body{
 }
 html, body {
   height: 100%;
+  /* z-index: 200; */
+  margin-top: 0px;
+  overflow: hidden;
+
 }
 
+#fullbody{
+  z-index: 2000;
+  position: absolute;
+  width: 100vw;
+  height:100vh
+}
+#threeJS{
+  z-index: -2000;
+  position: absolute; 
+}
 .title{
   margin-top: 33vh;
   font-size: 45px;
@@ -19,6 +33,7 @@ html, body {
   font-weight: 300;
   font-style: normal;
   letter-spacing: 6px;
+  
 }
 
 h1{
@@ -123,3 +138,7 @@ span{
     margin-top: 20vh;
   }
  
+  #canvas{
+    /* z-index: -20; */
+    position: absolute;
+  }

@@ -4,8 +4,8 @@ import Error from "./Error";
 import Emotions from "./Emotions";
 import Playlist from "./Playlist";
 import Load from "./Load";
-import Three from "./index";
-// import Box from "./Box";
+// import Three from "./index";
+
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -17,8 +17,6 @@ function App() {
         <Route path = "/emotions" element ={<Emotions />} />
         <Route path = "/playlist" element ={<Playlist />} />
         <Route path = "/load" element ={<Load />} />
-        <Route path = "/three" element ={<Three />} />
-        {/* <Route path = "/box" element ={<Box />} /> */}
         <Route path = "*" element ={<Error />} />
     </Routes>
   </Router> 
