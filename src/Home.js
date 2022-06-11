@@ -32,6 +32,7 @@ function Home() {
 
  
   </Canvas> */}
+  
   <ThreeJSHome />
 
 </div>

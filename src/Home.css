@@ -41,7 +41,6 @@ h1{
 }
 
 p{
-    /* color: rgb(128, 128, 128); */
     color: rgb(215, 215, 215);
     font-size: 16px;
     text-align: center;
@@ -67,8 +66,6 @@ p{
 
 button{
   border: 1px solid #983FE0;
-  /* background: transparent; */
-
   color: white;
   font-size: 19px;
   padding: 30px;
@@ -110,18 +107,10 @@ span{
   }
 
   #navigation{
-    /* position: relative;
-    margin: 0 20px;
-    list-style: none;
-    display: inline-block; */
     cursor: pointer;
     text-align: right;
     
   }
-  /* #space{
-    min-height: 30vh;
-  } */
-
 
   h3{
     font-size: 17px;
@@ -146,6 +135,5 @@ span{
   }
  
   #canvas{
-    /* z-index: -20; */
     position: absolute;
   }

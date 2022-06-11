@@ -7,10 +7,10 @@ import { OrbitControls } from "@react-three/drei";
 import textureUrl from "./static/textures/particles/12.png";
 
 const Particles = () => {
-  const count = 2000;
-  const positions = new Float32Array(count * 1)
+  const count = 1500;
+  const positions = new Float32Array(count * 3)
   const colors = new Float32Array(count*3)
-  const particles = new THREE.TorusBufferGeometry(1, 32, 32);
+  const particles = new THREE.TorusBufferGeometry(1, 1, 1);
   const textureLoader = useLoader(THREE.TextureLoader, textureUrl);
   const clock = new THREE.Clock();
 
@@ -22,14 +22,7 @@ const Particles = () => {
       positions[i] = (Math.random() -2)
       colors[i] = Math.random()
 
-      const x = 
-      // particles.current.geometry.attributes.position.array[i3*5 ];
-      particles.current.geometry.attributes.position.array[i3 * 40];
-      // Math.sin(
-      //   elapsedTime + x
-      // );
-      // particles.current.geometry.attributes.color.['purple', 1];
-     
+      const x = particles.current.geometry.attributes.position.array[i3 * 40];
 
       particles.current.geometry.attributes.position.array[i3*5+10] = Math.cos(elapsedTime +x)
     }
@@ -37,11 +30,11 @@ const Particles = () => {
   });
 
   useEffect(() => {
-    const positions = new Float32Array(count * 5);
-    const colors = new Float32Array(count * 5);
+    const positions = new Float32Array(count * 2);
+    const colors = new Float32Array(count * 2);
 
     for (let i = 0; i < count * 3; i++) {
-      positions[i] = (Math.random() - 0.5) * 10;
+      positions[i] = (Math.random() - 0.5) * 7;
       colors[i] = Math.random();
     }
 
@@ -60,18 +53,13 @@ const Particles = () => {
     <points ref={particles}>
       <bufferGeometry />
       <pointsMaterial
-        // size={0.075}
         size={2.0}
-        // sizeAttenuation={true}
+        sizeAttenuation={true}
         transparent = {true}
         depthWrite={false}
         vertexColors={true}
-        // transparent={true}
-        blending= {THREE.AdditiveBlending}
-        // depthWrite={false}
-        // vertexColors= {true}
+        transparent={true}
         alphaMap={textureLoader}
-        // blending={THREE.AdditiveBlending}
       />
     </points>
   );
@@ -80,7 +68,6 @@ const Particles = () => {
 export default function ThreeJSHome() {
   return (
     <Canvas style={{ height: `100vh` }}>
-       {/* <ambientLight intensity={0.001} /> */}
       <Suspense fallback={null}>
         <Particles  />
       </Suspense>
