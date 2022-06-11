@@ -32,6 +32,7 @@ html, body {
   font-weight: 300;
   font-style: normal;
   letter-spacing: 6px;
+  text-shadow: 2px 2px 20px black;
   
 }
 
@@ -40,13 +41,16 @@ h1{
 }
 
 p{
-    color: rgb(128, 128, 128);
+    /* color: rgb(128, 128, 128); */
+    color: rgb(215, 215, 215);
     font-size: 16px;
     text-align: center;
     margin: auto;
     font-family: roboto-slab,serif;
     font-weight: 400;
     font-style: normal;
+    text-shadow: 1px 1px 10px rgb(24, 24, 24);
+
 }
 
 #footer{
@@ -63,7 +67,8 @@ p{
 
 button{
   border: 1px solid #983FE0;
-  background: transparent;
+  /* background: transparent; */
+
   color: white;
   font-size: 19px;
   padding: 30px;
@@ -89,6 +94,8 @@ span{
   margin-left: auto;
   margin-right: auto;
   display: block;
+  background: rgba(24, 11, 34, 0.612);
+  box-shadow: 0px 0px 500px black;
 }
 
   #container{
@@ -111,19 +118,20 @@ span{
     text-align: right;
     
   }
-  #space{
+  /* #space{
     min-height: 30vh;
-  }
+  } */
 
 
   h3{
     font-size: 17px;
     position: relative;
     padding-bottom: 10px;
+    text-shadow: 2px 2px 30px black;
   }
 
   #foot{
-    font-size: 5px;
+    font-size: 15px;
     color: rgb(128, 128, 128);
     font-family: din-condensed,sans-serif;
     font-weight: 300;
@@ -131,10 +139,10 @@ span{
     margin-bottom: 30px;
     position: block;
     left:0px;
-    bottom:0px;
+    bottom:20px;
     height:30px;
     width:100%;
-    margin-top: 20vh;
+    margin-top: 28vh;
   }
  
   #canvas{

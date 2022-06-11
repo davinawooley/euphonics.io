@@ -42,7 +42,7 @@ function Home() {
         <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
         <a href = './about'>  <h3 id = "navigation">About</h3></a>
       </div>
-<div id = "space">
+{/* <div id = "space"> */}
 
 
       <h1 class ="title">euphonics.io</h1>
@@ -53,7 +53,7 @@ function Home() {
       <img src = {imageSpotify} alt = "spotify logo" height = {27} id = "spotify"/>
       <span><a href = {`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}>Access with Spotify</a></span>
       </button>
-      </div>
+      {/* </div> */}
       <h3 id = 'foot' >© 2022 DEW</h3>
  
     </div>
