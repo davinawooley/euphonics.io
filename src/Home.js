@@ -4,9 +4,8 @@ import imageSpotify from "./static/spotify.png";
 import './Home.css';
 import './About';
 import { Helmet } from 'react-helmet';
-import {Canvas} from 'react-three-fiber';
 import ThreeJSHome from './ThreeJSHome';
-import {OrbitControls} from "@react-three/drei";
+
 
 
 
