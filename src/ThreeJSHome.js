@@ -58,7 +58,6 @@ const Particles = () => {
         transparent = {true}
         depthWrite={false}
         vertexColors={true}
-        transparent={true}
         alphaMap={textureLoader}
       />
     </points>
