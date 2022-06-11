@@ -48,13 +48,14 @@ function Home() {
 
       <h1 class ="title">euphonics.io</h1>
       <p>The Hip-Hop Mental Health Playlist Generator</p>
-      <a href = {`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}>
-      <button id = "accessButton" type="button">
       
+      <button id = "accessButton" type="button">
+      <a href = {`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}>
       <img src = {imageSpotify} alt = "spotify logo" height = {27} id = "spotify"/>
       <span>Access with Spotify</span>
-      </button>
       </a>
+      </button>
+      
       {/* </div> */}
       <h3 id = 'foot' >© 2022 DEW</h3>
  
