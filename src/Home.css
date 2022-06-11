@@ -89,11 +89,13 @@ span{
   }
 
   #navigation{
-    position: relative;
+    /* position: relative;
     margin: 0 20px;
     list-style: none;
-    display: inline-block;
+    display: inline-block; */
     cursor: pointer;
+    text-align: right;
+    
   }
   #space{
     min-height: 30vh;
