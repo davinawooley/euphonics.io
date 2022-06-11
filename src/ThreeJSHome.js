@@ -51,7 +51,7 @@ const Particles = () => {
     );
     particles.current.geometry.setAttribute(
       "color",
-      new THREE.BufferAttribute(colors, 5)
+      new THREE.BufferAttribute(colors, 3)
     );
   // }, []);
 });
