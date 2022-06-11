@@ -65,12 +65,12 @@ const colors = new Float32Array(count*3)
         transparent = {true}
         depthWrite={false}
         vertexColors={true}
-        transparent={true}
+        // transparent={true}
         blending= {THREE.AdditiveBlending}
-        depthWrite={false}
+        // depthWrite={false}
         vertexColors= {true}
         alphaMap={textureLoader}
-        blending={THREE.AdditiveBlending}
+        // blending={THREE.AdditiveBlending}
       />
     </points>
   );
