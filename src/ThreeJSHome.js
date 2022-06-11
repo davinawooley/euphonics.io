@@ -53,7 +53,7 @@ const colors = new Float32Array(count*3)
       "color",
       new THREE.BufferAttribute(colors, 3)
     );
-  }, []);
+  }, [particles]);
 
   return (
     <points ref={particles}>
@@ -68,7 +68,7 @@ const colors = new Float32Array(count*3)
         // transparent={true}
         blending= {THREE.AdditiveBlending}
         // depthWrite={false}
-        vertexColors= {true}
+        // vertexColors= {true}
         alphaMap={textureLoader}
         // blending={THREE.AdditiveBlending}
       />
