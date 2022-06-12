@@ -68,7 +68,6 @@ button{
   border: 1px solid #983FE0;
   color: white;
   font-size: 19px;
-  /* padding: 30px; */
   display: inline;
   cursor: pointer;
 }
@@ -85,7 +84,6 @@ button > span {
   margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
-  /* display: block; */
   display: flex;
   justify-content: center;
 }

@@ -7,7 +7,7 @@ import { OrbitControls } from "@react-three/drei";
 import textureUrl from "./static/textures/particles/12.png";
 
 const Particles = () => {
-  const count = 1500;
+  const count = 1000;
   const positions = new Float32Array(count * 3)
   const colors = new Float32Array(count*3)
   const particles = new THREE.TorusBufferGeometry(1, 1, 1);
@@ -53,9 +53,10 @@ const Particles = () => {
     <points ref={particles}>
       <bufferGeometry />
       <pointsMaterial
-        size={2.0}
+        size={2.75}
         sizeAttenuation={true}
         transparent = {true}
+        opacity={0.33}
         depthWrite={false}
         vertexColors={true}
         alphaMap={textureLoader}
