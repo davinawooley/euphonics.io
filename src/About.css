@@ -3,6 +3,7 @@
 
 body{
   background-color: black;
+  overflow: auto;
 }
 
 #logo{
@@ -57,11 +58,15 @@ iframe{
 }
 
 .bodyTop{
-  width: 80%;
-  margin-left: 10%;
-  display: flex;
+  /* width: 80%; */
+  /* margin-left: 10%; */
+  /* display: flex; */
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
   font-size: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .topText{
@@ -78,6 +83,7 @@ iframe{
   font-family: roboto-slab,serif;
   font-weight: 400;
   font-style: normal;
+  display: inline-flex;
 }
 
 #disclaim{
@@ -85,10 +91,50 @@ iframe{
   font-family: roboto-slab,serif;
   font-weight: 400;
   font-style: normal;
-}
 
+}
+#logoBigLeft{
+  padding-right: 20%;
+  padding-left: 10%;
+  width: 15vw;
+  height: auto;
+}
+u{
+  text-decoration: none;
+  line-height: 30px;
+  border-bottom:1px solid white;
+  /* padding-bottom:200px; */
+}
+#disclaimTitle{
+
+
+
+  font-family: 'DIN Condensed';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 48px;
+}
+#mhrTitle{
+
+
+
+  font-family: 'DIN Condensed';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 48px;
+}
 #accessButtonD{
   padding-right: 20px;
+  text-align: center;
+
+  vertical-align: top;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+ 
 }
 
 #email{
