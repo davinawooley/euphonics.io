@@ -40,7 +40,7 @@ function Home() {
       <Helmet><title>euphonics.io</title>
       </Helmet>
       <div id = "container">
-        <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/>
+      <a href = './'><img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></a>
         <a href = './about'>  <h3 id = "navigation">About</h3></a>
       </div>
 <div id = "space">

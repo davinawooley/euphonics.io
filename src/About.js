@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home';
+
 import './About.css';
 import imageLogo from './static/logo.png';
 
@@ -15,7 +16,7 @@ function About() {
       <div id = 'container'>
       <a href = './'>
         <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logo"/></a>
-        <h3 id = 'navigation'>About</h3>
+        <a href = './About'>   <h3 id = 'navigation'>About</h3></a>
       </div>
 
 
