@@ -4,6 +4,7 @@
 body{
   background-color: black;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 #logo{
@@ -28,12 +29,14 @@ button{
   color: white;
   font-size: 19px;
   padding: 30px;
-}
 
+  
+}
+/* 
 button > #spotify,
 button > span {
   vertical-align: middle;
-}
+} */
 
 #spotify{
   margin-right: 30px;
@@ -56,7 +59,9 @@ iframe{
   align-items: center;
   justify-content: center;
 }
-
+#toLeft{
+  margin-left: 30%;
+}
 .bodyTop{
   /* width: 80%; */
   /* margin-left: 10%; */
@@ -65,8 +70,27 @@ iframe{
   padding-bottom: 20px;
   color: white;
   font-size: 15px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: block;
+}
+.bodyTop2{
+  /* width: 80%; */
+  /* margin-left: 10%; */
+  /* display: flex; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
+  height:400px ;
+
+
+  width:100%;
+  height:auto;
+  padding:1%;
+
 }
 
 .topText{
@@ -83,7 +107,8 @@ iframe{
   font-family: roboto-slab,serif;
   font-weight: 400;
   font-style: normal;
-  display: inline-flex;
+  /* display: inline-flex; */
+  width: 45%;
 }
 
 #disclaim{
@@ -94,11 +119,17 @@ iframe{
 
 }
 #logoBigLeft{
-  padding-right: 20%;
-  padding-left: 10%;
-  width: 15vw;
   height: auto;
+  width: 200px;
+  margin: auto;
+  align-items: left;
+  float:left; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 5vw;
 }
+
 u{
   text-decoration: none;
   line-height: 30px;
@@ -114,6 +145,9 @@ font-style: normal;
 font-weight: 300;
 font-size: 30px;
 line-height: 48px;
+display: block;
+display: inline-block;
+text-align: left;
 }
 #mhrTitle{
 
@@ -125,17 +159,11 @@ font-weight: 300;
 font-size: 30px;
 line-height: 48px;
 }
-#accessButtonD{
-  padding-right: 20px;
-  text-align: center;
-
+/* #accessButtonD{
   vertical-align: top;
-
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 50px;
  
-}
+} */
 
 #email{
   font-size: 17px;
@@ -147,7 +175,7 @@ line-height: 48px;
   text-align: center;
 }
 
-#title2{
+#title{
   margin-top: 30vh;
   font-size: 45px;
   text-align: center;
@@ -159,6 +187,10 @@ line-height: 48px;
   font-weight: 300;
   font-style: normal;
   letter-spacing: 6px;
+
+}
+#space{
+  margin-bottom: 100px;
 }
 
 a{
