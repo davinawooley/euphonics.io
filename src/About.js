@@ -4,12 +4,15 @@ import './Home';
 import './About.css';
 import imageLogo from './static/logo.png';
 
+import ReactPlayer from "react-player"
+
 import { Helmet } from 'react-helmet';
 
 function About() {
   return (
     
     <div>
+
       <Helmet><title>euphonics.io</title>
         </Helmet>
    
@@ -24,9 +27,10 @@ function About() {
 
     <div className = 'bodyTop'>
 
-
+    <ReactPlayer
+        url="https://youtu.be/brnXbW8C9KE"
+      />
     <h1 class ="title" id = 'space'>euphonics.io</h1>
-
 
     <div >
 
