@@ -2,6 +2,7 @@ import React from 'react';
 import './Emotions.css';
 import './About';
 import './Home';
+import './Load'
 import imageLogo from './static/logo.png'
 import imageSpotify from './static/spotify.png'
 import { Helmet } from 'react-helmet';
@@ -44,7 +45,7 @@ export default function Emotions() {
       <button id = 'sadness' onClick={handleClick}> <img src = {imageSpotify} alt = "sadness" height = {27} id = 'spotify'/><span>Sadness</span></button>
       <button id = 'selfCritism' onClick={handleClick}> <img src = {imageSpotify} alt = "self critism" height = {27} id = 'spotify'/><span>Self Critism</span></button>
       <button id = 'compassion' onClick={handleClick}> <img src = {imageSpotify} alt = "compassion" height = {27} id = 'spotify'/><span>Compassion</span></button>
-    
+    <a href = './Load'><h1 id = 'makeMix'>make my mix -></h1></a>
         <h6 id='footer'>© 2022 DEW</h6>
         </div>
         </div>

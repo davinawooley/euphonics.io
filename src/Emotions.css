@@ -18,6 +18,16 @@ body{
   margin: auto;
   width: 90%;
 }
+#makeMix{
+  color: white;
+  text-align: center;
+  margin-top: 10vh;
+  font-family: din-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
 
 ::-webkit-scrollbar {
   width: 5px;

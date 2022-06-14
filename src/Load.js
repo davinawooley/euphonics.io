@@ -9,7 +9,7 @@ function Load() {
     <Helmet><title>euphonics.io</title>
     </Helmet>
     <img src = {imageLogo} alt = "eupohonics logo" id  = "logoLarge"/>
-    <h2 id = 'subtitle'>Hold Tight.. 
+    <h2 id = 'subtitleLoad'>Hold Tight.. 
     <br/>
     we're creating <div id = 'makePurple'>your mix</div>
     </h2>
