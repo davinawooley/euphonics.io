@@ -1,4 +1,3 @@
-
 import React, { useEffect, Suspense } from "react";
 import * as THREE from "three";
 import { Canvas, useLoader, useFrame } from "react-three-fiber";
@@ -6,7 +5,11 @@ import { OrbitControls } from "@react-three/drei";
 
 import textureUrl from "./static/textures/particles/12.png";
 
+
+
+
 const Particles = () => {
+
   const count = 1000;
   const positions = new Float32Array(count * 3)
   const colors = new Float32Array(count*3)
@@ -46,7 +49,6 @@ const Particles = () => {
       "color",
       new THREE.BufferAttribute(colors, 3)
     );
-  // }, []);
 });
 
   return (
@@ -68,10 +70,11 @@ const Particles = () => {
 export default function ThreeJSHome() {
   return (
     <Canvas style={{ height: `100vh` }}>
+      
       <Suspense fallback={null}>
         <Particles  />
       </Suspense>
-
+    
       <OrbitControls />
     </Canvas>
   );

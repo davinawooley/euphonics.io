@@ -25,13 +25,7 @@ function Home() {
     
     <div>
       <div id = "threeJS" style={{  width: `100%`, height: `100vh` }}>
-        {/* <Canvas className = "canvas">
-          <ThreeJSHome />
-  <OrbitControls enableZoom = {false}/>
-  <ambientLight intensity = {0.5}/>
-
- 
-  </Canvas> */}
+      
   
   <ThreeJSHome />
 
