@@ -78,7 +78,7 @@ function About() {
  
     <a href = "mailto: feedback@euphonics.io"><h3 id = 'email'>Email: feedback@euphonics.io</h3></a>
 
-    <a href = "https://www.davinawooley.com/"> <h3 id = 'foot2' >© 2022 DEW</h3></a>
+    <a href = "https://www.davinawooley.com/" target = 'blank'> <h3 id = 'foot2' >© 2022 DEW</h3></a>
     </div>
   );
 }

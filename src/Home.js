@@ -7,13 +7,8 @@ import { Helmet } from 'react-helmet';
 import ThreeJSHome from './ThreeJSHome';
 
 
-
-
-
-
 function Home() {
-  // const [open, setOpen] = React.useState(false);
-  // spotify auth clid uri and auth endpoint
+
   const CLIENT_ID = "7e4ac27e10df469fa4de1530780b0a78"
   const REDIRECT_URI = "http://euphonics.io/emotions"
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"

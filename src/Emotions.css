@@ -33,7 +33,6 @@ body{
   width: 5px;
 }
 
-
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px rgb(255, 255, 255)(128, 128, 128, 0.493); 
   border-radius: 5px;
@@ -91,6 +90,7 @@ h1{
 }
 
 button{
+  
   border: 1px solid #983FE0;
   background: transparent;
   color: white;
@@ -139,4 +139,10 @@ span{
 a{
   text-decoration: none;
   color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
 }
