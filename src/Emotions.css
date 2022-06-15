@@ -18,15 +18,20 @@ body{
   margin: auto;
   width: 90%;
 }
+
+
+h1{  vertical-align: middle;}
 #makeMix{
   color: white;
   text-align: center;
+  vertical-align: middle;
   margin-top: 10vh;
   font-family: din-condensed,sans-serif;
   font-weight: 300;
   font-style: normal;
   letter-spacing: 3px;
-  font-size: 30px;
+  font-size: 25px;
+
 }
 
 ::-webkit-scrollbar {

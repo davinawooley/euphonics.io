@@ -3,6 +3,7 @@ import './Emotions.css';
 import './About';
 import './Home';
 import './Load';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import imageLogo from './static/logo.png'
 import { Helmet } from 'react-helmet';
 import ReactTooltip from 'react-tooltip';
@@ -19,7 +20,7 @@ import { makeStyles, withStyles } from "@material-ui/styles";
 
  const StyledButton = withStyles(() => ({
   root: {
-    marginRight: "2rem",
+    marginRight: "2.5%",
     marginBottom: "2rem",
     width: "250px",
     border: "1px solid #983FE0",
@@ -43,7 +44,7 @@ const useStyles = makeStyles(() => ({
     marginRight: "0rem"
   },
   activeButton: {
-    background: "purple",
+    background: "#7330ab",
     color: "#fff"
   }
 }));
@@ -60,7 +61,7 @@ export default function Emotions() {
     setActiveButton(name);
   };
 
-  const buttons = ["Happiness", "Heartbreak", "Confusion", "Contempt", "Family Values" , "Disappointment" ,"Stress" ,"Fear" ,"Jealousy" ,"Forgiveness/Reunion", "Loneliness", "Love" , "Sadness" ,"Self Criticism",  "Compassion"];
+  const buttons = ["Happiness", "Heartbreak", "Confusion", "Contempt", "Family" , "Disappointment" ,"Stress" ,"Fear" ,"Jealousy" ,"Forgiveness", "Loneliness", "Love" , "Sadness" ,"Self Criticism",  "Compassion"];
 
 
     return (
@@ -78,7 +79,7 @@ export default function Emotions() {
       </div>
       <div id = "center">
      
-      <h1 id = 'title'>Select the <u>Emotions</u> that you would like your mix to provide perspective for.</h1>
+      <h1 id = 'title'>Select the <u>Emotion</u> that you would like your mix to provide perspective for.</h1>
            
       <div>
 
@@ -177,7 +178,7 @@ export default function Emotions() {
  <span>Compassion</span></button>
 
      */}
-    <a href = './Load'><h1 id = 'makeMix'>make my mix -></h1></a>
+    <a href = './Load'><h1 id = 'makeMix'>make my mix   <ArrowForwardIcon /></h1> </a>
     <a href = 'http://www.davinawooley.com' target = 'blank'> <h6 id='footer'>© 2022 DEW</h6></a>
         </div>
         <ReactTooltip />
