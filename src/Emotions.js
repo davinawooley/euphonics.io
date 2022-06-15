@@ -6,7 +6,7 @@ import './Load';
 import imageLogo from './static/logo.png'
 import { Helmet } from 'react-helmet';
 import ReactTooltip from 'react-tooltip';
-import { Grid, Box, Button } from "@material-ui/core";
+import { Box, Button } from "@material-ui/core";
 import { makeStyles, withStyles } from "@material-ui/styles";
 
 // function handleClick(e) {
