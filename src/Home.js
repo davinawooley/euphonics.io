@@ -3,7 +3,7 @@ import imageLogo from "./static/logo.png";
 import imageSpotify from "./static/spotify.png";
 import './Home.css';
 import './About';
-import axios from 'axios';
+// import axios from 'axios';
 import { Helmet } from 'react-helmet';
 import ThreeJSHome from './ThreeJSHome';
 // import {useEffect, useState} from 'react';
