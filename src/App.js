@@ -8,6 +8,7 @@ import Load from "./Load";
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
+
 function App() {
   return (
     <Router>
@@ -18,9 +19,15 @@ function App() {
         <Route path = "/playlist" element ={<Playlist />} />
         <Route path = "/load" element ={<Load />} />
         <Route path = "*" element ={<Error />} />
+    
     </Routes>
-  </Router> 
+  </Router>
+
+
+
+  
   );
 }
+
 export default App;
 
