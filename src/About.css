@@ -1,4 +1,3 @@
-
 @import url('https://use.typekit.net/tnb3vsc.css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
 body{
@@ -20,7 +19,6 @@ body{
   font-family: din-condensed,sans-serif;
   font-weight: 300;
   font-style: normal;
-  /* padding-top: 40px; */
 }
 
 button{
@@ -32,11 +30,6 @@ button{
 
   
 }
-/* 
-button > #spotify,
-button > span {
-  vertical-align: middle;
-} */
 
 #spotify{
   margin-right: 30px;
@@ -63,9 +56,6 @@ iframe{
   margin-left: 30%;
 }
 .bodyTop{
-  /* width: 80%; */
-  /* margin-left: 10%; */
-  /* display: flex; */
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
@@ -75,9 +65,6 @@ iframe{
   display: block;
 }
 .bodyTop2{
-  /* width: 80%; */
-  /* margin-left: 10%; */
-  /* display: flex; */
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
@@ -85,12 +72,9 @@ iframe{
   margin-left: 15%;
   margin-right: 15%;
   height:400px ;
-
-
   width:100%;
   height:auto;
   padding:1%;
-
 }
 
 .topText{
@@ -135,12 +119,9 @@ u{
   line-height: 30px;
   border-bottom:1px solid rgb(215, 215, 215);
   color: rgb(215, 215, 215);
-  /* padding-bottom:200px; */
 }
+
 #disclaimTitle{
-
-
-
   font-family: 'DIN Condensed';
 font-style: normal;
 font-weight: 300;
@@ -152,21 +133,13 @@ text-align: left;
   color: rgb(215, 215, 215);
 }
 #mhrTitle{
-
-
-
-  font-family: 'DIN Condensed';
+font-family: 'DIN Condensed';
 font-style: normal;
 font-weight: 300;
 font-size: 30px;
 line-height: 48px;
 color: rgb(215, 215, 215);
 }
-/* #accessButtonD{
-  vertical-align: top;
-  margin-bottom: 50px;
- 
-} */
 
 
 #email{

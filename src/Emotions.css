@@ -17,7 +17,7 @@ body{
 #center{
   margin: auto;
   width: 90%;
-}
+} 
 
 
 h1{  vertical-align: middle;}
@@ -82,8 +82,8 @@ h1{
   font-style: normal;
 }
 
-#footer{
-  position: fixed;
+h6{
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;

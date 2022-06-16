@@ -179,7 +179,7 @@ export default function Emotions() {
 
      */}
     <a href = './Load'><h1 id = 'makeMix'>make my mix   <ArrowForwardIcon /></h1> </a>
-    <a href = 'http://www.davinawooley.com' target = 'blank'> <h6 id='footer'>© 2022 DEW</h6></a>
+    <a href = 'http://www.davinawooley.com' target = 'blank'> <h6 >© 2022 DEW</h6></a>
         </div>
         <ReactTooltip />
         </div> 
