@@ -47,7 +47,7 @@ function Home() {
       </a>
       </div>
       </div>
-      <h3 id = 'foot' >© 2022 DEW</h3>
+      <a href = 'http://www.davinawooley.com' target = 'blank'><h3 id = 'foot' >© 2022 DEW</h3></a>
  
     </div>
     </div>

@@ -42,15 +42,8 @@ const useStyles = makeStyles(() => ({
 }));
 
 
-
-
-
 export default function Emotions() {
 
-
-
-
-  
   const classes = useStyles();
   const [activeButton, setActiveButton] = useState(false);
 
@@ -174,7 +167,7 @@ export default function Emotions() {
  <span>Compassion</span></button>
 
      */}
-    <a href = './Load'><h1 id = 'makeMix'>make my mix   <ArrowForwardIcon /></h1> </a>
+    <a href = './load'><h1 id = 'makeMix'>make my mix<ArrowForwardIcon /></h1> </a>
     <a href = 'http://www.davinawooley.com' target = 'blank'> <h6 >© 2022 DEW</h6></a>
         </div>
         <ReactTooltip />

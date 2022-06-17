@@ -13,7 +13,7 @@ function Load() {
     <br/>
     we're creating <div id = 'makePurple'>your mix</div>
     </h2>
-      <h6 id='footer'>© 2022 DEW</h6>
+    <a href = 'http://www.davinawooley.com' target = 'blank'><h6 id='footer'>© 2022 DEW</h6></a>
     </div>
     );
   }

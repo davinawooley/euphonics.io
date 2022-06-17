@@ -61,7 +61,7 @@ function Playlist() {
          <span>Export to Spotify</span></button>
 
       </div>
-      <h6 id  = "foot" >© 2022 DEW</h6>
+      <a href = 'http://www.davinawooley.com' target = 'blank'> <h6 id  = "foot" >© 2022 DEW</h6></a>
       </div>
     );
   }

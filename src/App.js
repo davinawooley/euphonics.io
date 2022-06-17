@@ -4,10 +4,8 @@ import Error from "./Error";
 import Emotions from "./Emotions";
 import Playlist from "./Playlist";
 import Load from "./Load";
-// import Three from "./index";
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-
 
 function App() {
   return (
@@ -18,13 +16,10 @@ function App() {
         <Route path = "/emotions" element ={<Emotions />} />
         <Route path = "/playlist" element ={<Playlist />} />
         <Route path = "/load" element ={<Load />} />
-        <Route path = "*" element ={<Error />} />
-    
+        <Route path = "*" element ={<Error />} />  
     </Routes>
   </Router>
-  
   );
 }
 
 export default App;
-
