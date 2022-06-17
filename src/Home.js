@@ -8,7 +8,6 @@ import { Helmet } from 'react-helmet';
 import ThreeJSHome from './ThreeJSHome';
 // import {useEffect, useState} from 'react';
 
-
 function Home() {
 
   const CLIENT_ID = "7e4ac27e10df469fa4de1530780b0a78"
@@ -18,17 +17,11 @@ function Home() {
 
 
   return (
-
-    
     <div>
-
-
-
 
 
       <div id = "threeJS" style={{  width: `100%`, height: `100vh` }}>
       
-  
   <ThreeJSHome />
 
 </div>
