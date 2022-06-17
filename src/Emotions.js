@@ -7,16 +7,8 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import imageLogo from './static/logo.png'
 import { Helmet } from 'react-helmet';
 import ReactTooltip from 'react-tooltip';
-import { Box, Button } from "@material-ui/core";
+import { Grid, Box, Button } from "@material-ui/core";
 import { makeStyles, withStyles } from "@material-ui/styles";
-
-// function handleClick(e) {
-//    e.preventDefault();
-//    console.log('The link was clicked.');
-//  };
-
-
-
 
  const StyledButton = withStyles(() => ({
   root: {
@@ -27,7 +19,7 @@ import { makeStyles, withStyles } from "@material-ui/styles";
     padding: "30px",
     fontSize: "14pt",
     color: "white",
-    backgroundColor : "black",
+    backgroundColor : "#1a0a26",
     fontWeight: "300",
     textTransform: "capitalize"
   }
@@ -36,13 +28,13 @@ import { makeStyles, withStyles } from "@material-ui/styles";
 const useStyles = makeStyles(() => ({
   buttonContainerWrapper: {
     display: "flex",
-
     justifyContent: "center"
   },
 
   lastButtonFilter: {
     marginRight: "0rem"
   },
+ 
   activeButton: {
     background: "#7330ab",
     color: "#fff"
@@ -52,7 +44,12 @@ const useStyles = makeStyles(() => ({
 
 
 
+
 export default function Emotions() {
+
+
+
+
   
   const classes = useStyles();
   const [activeButton, setActiveButton] = useState(false);
@@ -61,15 +58,12 @@ export default function Emotions() {
     setActiveButton(name);
   };
 
-  const buttons = ["Happiness", "Heartbreak", "Confusion", "Contempt", "Family" , "Disappointment" ,"Stress" ,"Fear" ,"Jealousy" ,"Forgiveness", "Loneliness", "Love" , "Sadness" ,"Self Criticism",  "Compassion"];
 
+  const buttons = ["Happiness", "Heartbreak", "Confusion", "Contempt", "Family" , "Disappointment" ,"Stress" ,"Fear" ,"Jealousy" ,"Forgiveness", "Loneliness", "Love" , "Sadness" ,"Self Criticism",  "Compassion"];
 
     return (
    
       <div>
-
-
-
 
          <Helmet><title>euphonics.io</title>
         </Helmet>
@@ -83,30 +77,32 @@ export default function Emotions() {
            
       <div>
 
-{/* <Container className={classes.buttonContainerWrapper}> */}
-
-<Box className={classes.buttonContainer}>
+<Grid
+  container
+  direction="row"
+  justify="center"
+  alignItems="flex-start"
+  style={{  maxWidth: '100%' }}
+  >
+    <Grid item xs={12} align="center">
+      
+       <Grid container justify="center" alignItems="center">
+       <Box className={classes.buttonContainer}>
         {buttons.map((name) => (
           <StyledButton
             name={name}
             className={activeButton === name ? `${classes.activeButton}` : ""}
-            onClick={() => clickedButtonHandler(name)}
+            onClick={() => clickedButtonHandler(name)
+            }
+         
           >
             {name}
           </StyledButton>
         ))}
       </Box>
-
-
-    {/* </Container> */}
-
-      {/* <button data-tip data-for="registerTip" id = 'happiness' >  */}
-        {/* <span>Happiness</span></button> */}
-     
-    
-        {/* <button id = 'heartbreak' onClick={handleClick}> */}
- 
-
+       </Grid>
+    </Grid>
+</Grid>
 
 
 {/* 
@@ -184,6 +180,5 @@ export default function Emotions() {
         <ReactTooltip />
         </div> 
         </div>
-        // </div>
       );
     } 

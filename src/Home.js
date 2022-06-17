@@ -15,7 +15,6 @@ function Home() {
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
   const RESPONSE_TYPE = "token"
 
-
   return (
     <div>
 
@@ -34,7 +33,6 @@ function Home() {
         <a href = './about'>  <h3 id = "navigation">About</h3></a>
       </div>
 <div id = "space">
-
 
       <h1 class ="title">euphonics.io</h1>
       <p>The Hip-Hop Mental Health Playlist Generator</p>
