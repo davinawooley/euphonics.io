@@ -81,8 +81,7 @@ button{
   display: inline;
 }
 
-#subtitle{
-  color: #8F8F8F;
+#subtitleError{
   color:white;
   font-size: 30px;
   letter-spacing: 2px;
@@ -93,6 +92,7 @@ button{
   font-weight: 300;
   font-style: normal;
 }
+
 
 span{
   font-family: din-condensed,sans-serif;
