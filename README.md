@@ -1,3 +1,6 @@
+euphonics.io
+Hip-Hop Mental Health Playlist Generator
+
 Build Instructions are listed below. 
 
 # Getting Started with Create React App
