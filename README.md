@@ -1,5 +1,6 @@
 euphonics.io
 Hip-Hop Mental Health Playlist Generator
+React, Nodejs, HTML, CSS, Spotify API, and TensorFlow
 
 Build Instructions are listed below. 
 
