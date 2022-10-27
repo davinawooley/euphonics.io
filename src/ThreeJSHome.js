@@ -2,7 +2,7 @@ import React, { useEffect, Suspense } from "react";
 import * as THREE from "three";
 import { Canvas, useLoader, useFrame } from "react-three-fiber";
 import { OrbitControls } from "@react-three/drei";
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
+
 import textureUrl from "./static/textures/particles/12.png";
 
 
