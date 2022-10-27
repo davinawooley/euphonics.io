@@ -35,7 +35,7 @@ function Home() {
 <div id = "space">
 
       <h1 class ="title">euphonics.io</h1>
-      <p>The Hip-Hop Mental Health Playlist Generator</p>
+      <p>The AI Mental Health Playlist Generator</p>
       <div id = "centerButton">
       <a href = {`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}>
       <button id = "accessButton" type="button">

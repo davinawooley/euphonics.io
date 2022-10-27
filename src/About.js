@@ -37,11 +37,11 @@ function About() {
     <img src = {imageLogo} alt = "eupohonics logo" height = {40} id  = "logoBigLeft"/>
        </div>
        <span id = 'disclaimTitle'>OUR STORY</span>
-    <h2 id = 'disclaim'>Euphonics.io uses AI to analyze user listening history and artist preferences to generate hip hop playlists. 
+    <h2 id = 'disclaim'>Euphonics.io uses AI to analyze user listening history and artist preferences to generate playlists. 
     <br/>
     Euphonics.io is a free web application that integrates with Spotify applications. 
     <br/>
-    Euphonics.io is an application "for the people." It is and will always be free. We do not store your personal information. 
+    Euphonics.io is an application for all. It is and will always be free. We do not store your personal information. 
     </h2>
 
 <br/>
